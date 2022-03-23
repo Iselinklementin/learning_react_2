@@ -1,29 +1,16 @@
-# JS Frameworks - Module Assignment 2
+### JS Frameworks - Module Assignment 2
 
 # Brief
 
-Create a new app using Create React App.
-
-You can create an app inside the current folder using:
-
-```
-npx create-react-app .
-```
-
-> If your repo name has a capital letter in it make the folder name all lowercase before running the above command.
-
----
-
 Level 1 is required.
-
 Level 2 is optional.
 
-You can use a UI library like React Bootstrap or style it all on your own. The styling is not important for this assignment but every frontend project must always be responsive.
+You can use a UI library like React Bootstrap or style it all on your own. 
+The styling is not important for this assignment but every frontend project must always be responsive.
 
 ## Level 1
 
 You will need to find a URL to make a GET request to. This URL should return an array of results.
-
 This can be any API URL except those used in this module's lessons and lesson tasks. You can use your own API too.
 
 The site should have 2 "pages":
@@ -31,12 +18,12 @@ The site should have 2 "pages":
 -   Home - route: "/"
 -   Contact - route: "/contact"
 
-All pages should make use of a `Heading` component for the `h1` element on the page. This component should have the appropriate Prop Type checks.
+All pages should make use of a `Heading` component for the `h1` element on the page.
+This component should have the appropriate Prop Type checks.
 
 #### Home page
 
 Make a request to your API, loop through the results and display at least two properties from each result.
-
 Each result's properties should be passed in to a component separate from the component the API call is in, similar to how the result properties are passed in to the `BookItem` component in lesson 3.
 
 This component should have the appropriate Prop Type checks.
